@@ -1,0 +1,19 @@
+{
+  "name"          : "cas-client", 
+  "version"       : "0.0.1", 
+  "description"   : "Node CAS Client", 
+  "repository"    : { "type" : "git"
+                    , "url"  : "https://github.com/srobertson/node-cas-client.git"
+                    }, 
+  "keywords"      : ["cas","exrpess","connect"], 
+  "author"        : "Scott Robertson <srobertson@codeit.com>", 
+  "licenses"      : ["Apache"], 
+  "main"          : "lib/cas.js",
+  "dependencies"  : {
+                     "xml2js":"",
+                     "underscore":""
+                    },
+ "devDependencies": {
+                     "jasmine-node":""
+                    }
+}
