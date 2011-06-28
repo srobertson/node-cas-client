@@ -1,3 +1,10 @@
 Node CAS Client
 
 == Work in progress. Help docs forthcoming. For now have a look at the unit tests.
+
+
+TODO:
+- Hide ticket arg from normal app flow
+  - Store desired url (GET, POST), body, headers, etc in session prior to auth redirect
+  - Process ticket at dedicate url
+  - after ticket processing perform desired action.

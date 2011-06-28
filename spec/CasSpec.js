@@ -53,6 +53,7 @@ describe("cas",function(){
     defered.data("<cas:authenticationSuccess><email>bob@foo.com</email></cas:authenticationSuccess>");
     defered.data("</cas>");
     
+    expect(req.session.authenticated_user.email).toEqual("bob@foo.com");
     expect(defered.on).toHaveBeenCalledWith('error',jasmine.any(Function));
     expect(defered.on).toHaveBeenCalledWith('data',jasmine.any(Function));
 
