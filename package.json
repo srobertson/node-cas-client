@@ -1,5 +1,5 @@
 {
-  "name"          : "cas-client", 
+  "name"          : "cas-auth", 
   "version"       : "0.0.2", 
   "description"   : "Node CAS Client", 
   "repository"    : { "type" : "git"
