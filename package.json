@@ -1,6 +1,6 @@
 {
   "name"          : "cas-client", 
-  "version"       : "0.0.1", 
+  "version"       : "0.0.2", 
   "description"   : "Node CAS Client", 
   "repository"    : { "type" : "git"
                     , "url"  : "https://github.com/srobertson/node-cas-client.git"
