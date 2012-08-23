@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/srobertson/node-cas-client.png)](http://travis-ci.org/srobertson/node-cas-client)
 Node CAS Client
 
 == Work in progress. Help docs forthcoming. For now have a look at the unit tests.
